@@ -1,0 +1,115 @@
+{
+  "name": "Kunal Kulthe",
+  "role": "Software Engineer",
+  "tagline": "I design and build reliable, scalable software — turning complex problems into clean, intuitive products people love to use.",
+  "location": "India",
+  "email": "kunal.kulthe@ril.com",
+  "profileImage": "/profile.jpg",
+  "resumeUrl": "",
+  "about": "I'm a software engineer with a passion for building products end-to-end — from data pipelines and APIs to polished front-end experiences. I care deeply about clean architecture, performance, and writing code that other people enjoy working with. When I'm not shipping features, I'm exploring new technologies and sharpening my craft.\n\n(Replace this paragraph with your own story — what you do, what drives you, and what you're looking for.)",
+  "stats": [
+    { "label": "Years of experience", "value": "3+" },
+    { "label": "Projects shipped", "value": "15+" },
+    { "label": "Technologies", "value": "20+" }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "SQL",
+    "REST APIs",
+    "Docker",
+    "Git",
+    "AWS",
+    "PostgreSQL",
+    "Tailwind CSS"
+  ],
+  "social": [
+    { "label": "GitHub", "url": "https://github.com/your-username", "icon": "github" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username", "icon": "linkedin" },
+    { "label": "Email", "url": "mailto:kunal.kulthe@ril.com", "icon": "mail" }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Reliance Industries Limited",
+      "period": "2023 — Present",
+      "location": "India",
+      "summary": "Building and maintaining production software across the stack.",
+      "highlights": [
+        "Designed and shipped key features used by internal teams, improving workflow efficiency.",
+        "Collaborated with cross-functional teams to deliver reliable, well-tested releases.",
+        "Optimized critical paths to reduce latency and improve user experience."
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Previous Company",
+      "period": "2022 — 2023",
+      "location": "India",
+      "summary": "Contributed to web applications and internal tooling.",
+      "highlights": [
+        "Built reusable UI components and automated repetitive tasks.",
+        "Wrote unit and integration tests to improve code coverage."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science & Engineering",
+      "institution": "Your University",
+      "period": "2019 — 2023",
+      "score": "CGPA: 8.5 / 10",
+      "description": "Coursework in data structures, algorithms, databases, and software engineering."
+    }
+  ],
+  "projects": [
+    {
+      "title": "MarketMosaic",
+      "description": "A data-driven dashboard that aggregates and visualizes market data, helping users spot trends at a glance.",
+      "tech": ["React", "Node.js", "Charting", "REST API"],
+      "github": "https://github.com/your-username/marketmosaic",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "title": "Auth Gateway",
+      "description": "A secure authentication and authorization service with token management and role-based access control.",
+      "tech": ["Node.js", "JWT", "PostgreSQL", "Docker"],
+      "github": "https://github.com/your-username/auth-gateway",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "title": "Project Three",
+      "description": "Short, punchy description of what this project does and the impact or problem it solves.",
+      "tech": ["Python", "FastAPI", "SQL"],
+      "github": "https://github.com/your-username/project-three",
+      "demo": "https://your-demo-link.com",
+      "image": ""
+    }
+  ],
+  "certificates": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2024",
+      "url": "https://www.credly.com/your-badge",
+      "image": ""
+    },
+    {
+      "title": "Meta Front-End Developer",
+      "issuer": "Coursera",
+      "date": "2023",
+      "url": "https://coursera.org/verify/your-certificate",
+      "image": ""
+    }
+  ],
+  "contact": {
+    "heading": "Let's build something together",
+    "subheading": "Have an opportunity, a project in mind, or just want to say hi? Drop me a message and I'll get back to you.",
+    "web3formsAccessKey": "YOUR_WEB3FORMS_ACCESS_KEY"
+  }
+}

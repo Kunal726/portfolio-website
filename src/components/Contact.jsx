@@ -10,11 +10,9 @@ export default function Contact({ data }) {
 
   const accessKey =
     import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || data.contact?.web3formsAccessKey
-  const keyMissing = !accessKey || accessKey === 'YOUR_WEB3FORMS_ACCESS_KEY'
 
   async function handleSubmit(e) {
     e.preventDefault()
-    if (keyMissing) return
     setStatus('sending')
     setError('')
 
@@ -145,14 +143,6 @@ export default function Contact({ data }) {
                   />
                 </div>
 
-                {keyMissing && (
-                  <p className="mt-4 flex items-start gap-2 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-2 text-xs text-amber-300">
-                    <AlertCircle size={15} className="mt-0.5 shrink-0" />
-                    Set your Web3Forms access key in <code className="mx-1">src/data/portfolio.json</code>
-                    to enable sending. Get a free key at web3forms.com.
-                  </p>
-                )}
-
                 {status === 'error' && (
                   <p className="mt-4 flex items-start gap-2 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-xs text-red-300">
                     <AlertCircle size={15} className="mt-0.5 shrink-0" />
@@ -162,7 +152,7 @@ export default function Contact({ data }) {
 
                 <button
                   type="submit"
-                  disabled={status === 'sending' || keyMissing}
+                  disabled={status === 'sending'}
                   className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-accent to-accent-3 px-5 py-3 text-sm font-semibold text-base shadow-lg shadow-accent/20 transition-all hover:scale-[1.01] disabled:cursor-not-allowed disabled:opacity-50"
                 >
                   {status === 'sending' ? (

@@ -8,7 +8,8 @@ export default function Contact({ data }) {
   const [status, setStatus] = useState('idle') // idle | sending | success | error
   const [error, setError] = useState('')
 
-  const accessKey = data.contact?.web3formsAccessKey
+  const accessKey =
+    import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || data.contact?.web3formsAccessKey
   const keyMissing = !accessKey || accessKey === 'YOUR_WEB3FORMS_ACCESS_KEY'
 
   async function handleSubmit(e) {

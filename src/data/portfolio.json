@@ -5,7 +5,7 @@
   "location": "India",
   "email": "kunalkulthe01@gmail.com",
   "profileImage": "https://github.com/Kunal726.png",
-  "resumeUrl": "",
+  "resumeUrl": "https://drive.google.com/file/d/1e-diy29yTiadjXUu45KC8KgJQh5x9Fng/view?usp=drivesdk",
   "about": "I'm a Backend Software Engineer with 2+ years at Jio Platforms, building Java/Spring Boot microservices for payment systems used by JioMart, Reliance Digital, JioBlackRock, and ICICI Prudential. I work on payment gateway integrations (PayPhi, Razorpay, CAMS Pay), review and mentor peers on the features I own, and use AI tools like Cursor and Claude as part of my regular workflow — including building a full payment page largely through AI-assisted development.\n\nI'm comfortable owning a feature end-to-end, from design through production support and long-term stability.",
   "stats": [
     { "label": "Years of experience", "value": "2+" },

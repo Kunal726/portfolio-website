@@ -3,6 +3,15 @@ import { motion } from 'framer-motion'
 import { ArrowRight, ArrowDown, MapPin, Download } from 'lucide-react'
 import { SocialIcon } from './icons'
 
+// Resolve a path from portfolio.json. External links (http/https/mailto) are
+// used as-is; a local file (e.g. "profile.jpg" placed in /public) is prefixed
+// with Vite's base URL so it works on the GitHub Pages subpath too.
+function assetUrl(path) {
+  if (!path) return path
+  if (/^(https?:|mailto:|\/\/)/.test(path)) return path
+  return import.meta.env.BASE_URL + path.replace(/^\//, '')
+}
+
 function Avatar({ src, name }) {
   const [failed, setFailed] = useState(false)
   const initials = name
@@ -22,7 +31,7 @@ function Avatar({ src, name }) {
   }
   return (
     <img
-      src={src}
+      src={assetUrl(src)}
       alt={name}
       onError={() => setFailed(true)}
       className="h-full w-full object-cover"
@@ -108,7 +117,7 @@ export default function Hero({ data }) {
             </a>
             {data.resumeUrl && (
               <a
-                href={data.resumeUrl}
+                href={assetUrl(data.resumeUrl)}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold text-slate-300 transition-colors hover:text-white"

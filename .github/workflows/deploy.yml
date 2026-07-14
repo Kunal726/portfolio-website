@@ -21,6 +21,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Run in the "portfolio" environment so the build can read its
+    # secret/variable (VITE_WEB3FORMS_ACCESS_KEY is baked in at build time).
+    environment: portfolio
     steps:
       - name: Checkout
         uses: actions/checkout@v4

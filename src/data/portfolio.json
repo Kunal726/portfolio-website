@@ -1,115 +1,142 @@
 {
   "name": "Kunal Kulthe",
-  "role": "Software Engineer",
-  "tagline": "I design and build reliable, scalable software — turning complex problems into clean, intuitive products people love to use.",
+  "role": "Backend Software Engineer",
+  "tagline": "Backend engineer building reliable, scalable payment systems with Java & Spring Boot — and shipping features end-to-end with an AI-native workflow.",
   "location": "India",
-  "email": "kunal.kulthe@ril.com",
+  "email": "kunalkulthe01@gmail.com",
   "profileImage": "/profile.jpg",
   "resumeUrl": "",
-  "about": "I'm a software engineer with a passion for building products end-to-end — from data pipelines and APIs to polished front-end experiences. I care deeply about clean architecture, performance, and writing code that other people enjoy working with. When I'm not shipping features, I'm exploring new technologies and sharpening my craft.\n\n(Replace this paragraph with your own story — what you do, what drives you, and what you're looking for.)",
+  "about": "I'm a Backend Software Engineer with 2+ years at Jio Platforms, building Java/Spring Boot microservices for payment systems used by JioMart, Reliance Digital, JioBlackRock, and ICICI Prudential. I work on payment gateway integrations (PayPhi, Razorpay, CAMS Pay), review and mentor peers on the features I own, and use AI tools like Cursor and Claude as part of my regular workflow — including building a full payment page largely through AI-assisted development.\n\nI'm comfortable owning a feature end-to-end, from design through production support and long-term stability.",
   "stats": [
-    { "label": "Years of experience", "value": "3+" },
-    { "label": "Projects shipped", "value": "15+" },
-    { "label": "Technologies", "value": "20+" }
+    { "label": "Years of experience", "value": "2+" },
+    { "label": "Payment platforms served", "value": "4" },
+    { "label": "Payment gateways integrated", "value": "3" }
   ],
   "skills": [
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Python",
-    "SQL",
+    "Java",
+    "Kotlin",
+    "Spring Boot",
     "REST APIs",
-    "Docker",
-    "Git",
+    "Microservices",
+    "System Design",
+    "SQL",
+    "MySQL",
+    "Oracle",
+    "SQLite",
+    "Redis",
+    "Apache ZooKeeper",
+    "Apache Kafka",
+    "Python",
+    "PHP",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "Firebase",
     "AWS",
-    "PostgreSQL",
-    "Tailwind CSS"
+    "JUnit",
+    "Mockito",
+    "Git",
+    "Linux"
   ],
   "social": [
-    { "label": "GitHub", "url": "https://github.com/your-username", "icon": "github" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username", "icon": "linkedin" },
-    { "label": "Email", "url": "mailto:kunal.kulthe@ril.com", "icon": "mail" }
+    { "label": "GitHub", "url": "https://github.com/Kunal726", "icon": "github" },
+    { "label": "LinkedIn", "url": "https://in.linkedin.com/in/kunal-kulthe-a13a5920a", "icon": "linkedin" },
+    { "label": "Email", "url": "mailto:kunalkulthe01@gmail.com", "icon": "mail" }
   ],
   "experience": [
     {
-      "role": "Software Engineer",
-      "company": "Reliance Industries Limited",
-      "period": "2023 — Present",
+      "role": "Backend Software Engineer",
+      "company": "Jio Platforms Limited",
+      "period": "January 2024 — Present",
       "location": "India",
-      "summary": "Building and maintaining production software across the stack.",
+      "summary": "Build and maintain Java Spring Boot microservices powering end-to-end payment processing across JioMart, Reliance Digital, JioBlackRock, and ICICI Prudential.",
       "highlights": [
-        "Designed and shipped key features used by internal teams, improving workflow efficiency.",
-        "Collaborated with cross-functional teams to deliver reliable, well-tested releases.",
-        "Optimized critical paths to reduce latency and improve user experience."
+        "Independently designed and shipped a full payment page end-to-end using AI-native development with Cursor and Claude, covering integration with the payment gateway and offer engine — stable post-deployment with no code changes required unless gateway requirements changed.",
+        "Implemented PayPhi standard checkout, custom checkout, and refund/reconciliation workflows; integrated Razorpay EMI for installment payments and CAMS Pay AutoPay for recurring JioBlackRock transactions.",
+        "Designed backend services for payment link generation, integrated into a consolidated internal operations dashboard built with React.js and Next.js; integrated Lenovo OEM systems for RDIN merchants covering availability checks, sales workflows, and transaction rollbacks.",
+        "Significantly improved API response times using Redis caching and optimized SQL queries and database indexing for high-throughput payment services.",
+        "Used Apache ZooKeeper for distributed service coordination and centralized configuration management.",
+        "Reviewed and mentored peers on features I owned — providing code review feedback, design input, and pairing support to improve code quality and delivery speed.",
+        "Debugged production issues across distributed services by analyzing logs, JVM behavior, and inter-service interactions."
       ]
     },
     {
-      "role": "Software Engineer Intern",
-      "company": "Previous Company",
-      "period": "2022 — 2023",
+      "role": "Android Developer Intern & Team Lead",
+      "company": "MDU Santi Solution",
+      "period": "December 2021 — February 2022",
       "location": "India",
-      "summary": "Contributed to web applications and internal tooling.",
+      "summary": "Led the Android team building SRWallet, a fintech app offering loans, deposits, and insurance services.",
       "highlights": [
-        "Built reusable UI components and automated repetitive tasks.",
-        "Wrote unit and integration tests to improve code coverage."
+        "Led the Android development team, coordinating collaboration and driving efficient delivery of project milestones.",
+        "Built a secure PHP + MySQL backend handling authentication and financial transaction processing.",
+        "Integrated Razorpay payment gateway and Bitcoin payments to support both traditional and crypto transactions.",
+        "Developed the frontend in Kotlin, Java, and XML, delivering an intuitive interface for seamless financial workflows."
       ]
     }
   ],
   "education": [
     {
-      "degree": "B.Tech in Computer Science & Engineering",
-      "institution": "Your University",
-      "period": "2019 — 2023",
-      "score": "CGPA: 8.5 / 10",
+      "degree": "Bachelor of Engineering — Computer Engineering",
+      "institution": "Sinhgad College of Engineering, Pune",
+      "period": "Graduated May 2023",
+      "score": "CGPA: 9.20 / 10.00",
       "description": "Coursework in data structures, algorithms, databases, and software engineering."
     }
   ],
   "projects": [
     {
-      "title": "MarketMosaic",
-      "description": "A data-driven dashboard that aggregates and visualizes market data, helping users spot trends at a glance.",
-      "tech": ["React", "Node.js", "Charting", "REST API"],
-      "github": "https://github.com/your-username/marketmosaic",
+      "title": "Market Mosaic — E-Commerce Backend Platform",
+      "description": "A polyglot, microservices-based e-commerce backend split across independent services (catalog, cart, orders, product, shared libs) with role-based access control via Spring Security. Applied Redis caching and ZooKeeper coordination to ensure high availability and scalability across distributed services.",
+      "tech": ["Java", "Spring Boot", "Go", "Redis", "ZooKeeper", "Spring Security", "Microservices"],
+      "github": "https://github.com/Kunal726?tab=repositories&q=marketmosaic",
       "demo": "",
       "image": ""
     },
     {
-      "title": "Auth Gateway",
-      "description": "A secure authentication and authorization service with token management and role-based access control.",
-      "tech": ["Node.js", "JWT", "PostgreSQL", "Docker"],
-      "github": "https://github.com/your-username/auth-gateway",
+      "title": "SRWallet — Financial Services App",
+      "description": "A full-featured fintech Android app built during my internship at MDU Santi Solution, offering loan provision, deposit facilities, and insurance services. I led the Android development team, built the frontend in Kotlin/Java/XML, and developed a secure PHP + MySQL backend handling authentication and financial transactions. Integrated Razorpay payment gateway and Bitcoin payments to support both traditional and crypto transactions.",
+      "tech": ["Android", "Kotlin", "Java", "XML", "PHP", "MySQL", "Razorpay", "Bitcoin"],
+      "github": "",
       "demo": "",
       "image": ""
     },
     {
-      "title": "Project Three",
-      "description": "Short, punchy description of what this project does and the impact or problem it solves.",
-      "tech": ["Python", "FastAPI", "SQL"],
-      "github": "https://github.com/your-username/project-three",
-      "demo": "https://your-demo-link.com",
-      "image": ""
-    }
-  ],
-  "certificates": [
-    {
-      "title": "AWS Certified Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "date": "2024",
-      "url": "https://www.credly.com/your-badge",
+      "title": "Yoga Pose Correctness Detection",
+      "description": "A Yoga Pose Recognition System built with machine learning that detects and classifies yoga poses in real time, providing users with feedback on the correctness of their posture.",
+      "tech": ["Python", "Machine Learning", "Computer Vision"],
+      "github": "https://github.com/Kunal726/Yoga-Pose-Correctness-Detection",
+      "demo": "",
       "image": ""
     },
     {
-      "title": "Meta Front-End Developer",
-      "issuer": "Coursera",
-      "date": "2023",
-      "url": "https://coursera.org/verify/your-certificate",
+      "title": "E-Shop — Android App",
+      "description": "An Android e-commerce app with two roles. Shop owners list their products — uploading photos, descriptions, and details — and can update or delete them. Admins onboard and manage shop owners, hold all product rights themselves, and can view every shop on the platform.",
+      "tech": ["Android", "Kotlin", "MySQL"],
+      "github": "https://github.com/Kunal726/E_Shop_Final",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "title": "Image Steganography",
+      "description": "A tool that hides secret data inside images using the LSB (Least Significant Bit) algorithm, built with a combination of Java, PHP, and HTML.",
+      "tech": ["Java", "PHP", "HTML"],
+      "github": "https://github.com/Kunal726/Image-Steganography",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "title": "Daily Expenses — Android App",
+      "description": "An Android app for recording and managing day-to-day spending. Uses a local SQLite database backed by Firebase cloud sync, so a user's expense data stays safe and available across devices.",
+      "tech": ["Android", "Kotlin", "SQLite", "Firebase"],
+      "github": "https://github.com/Kunal726/Daily-Expenses",
+      "demo": "",
       "image": ""
     }
   ],
+  "certificates": [],
   "contact": {
     "heading": "Let's build something together",
     "subheading": "Have an opportunity, a project in mind, or just want to say hi? Drop me a message and I'll get back to you.",
-    "web3formsAccessKey": "YOUR_WEB3FORMS_ACCESS_KEY"
+    "web3formsAccessKey": "eb6f61cd-d827-4e79-a002-79efb724079b"
   }
 }

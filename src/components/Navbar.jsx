@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
-const links = [
-  { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Certificates', href: '#certificates' },
-  { label: 'Contact', href: '#contact' },
-]
-
 export default function Navbar({ data }) {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+
+  const links = [
+    { label: 'About', href: '#about' },
+    { label: 'Experience', href: '#experience' },
+    { label: 'Projects', href: '#projects' },
+    ...(data.certificates?.length ? [{ label: 'Certificates', href: '#certificates' }] : []),
+    { label: 'Contact', href: '#contact' },
+  ]
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
